@@ -723,8 +723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 13.8}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -9.0039, y: 13.8}
+  m_SizeDelta: {x: 420.8288, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940832775
 MonoBehaviour:
@@ -780,7 +780,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1810,6 +1810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31084a53272fc9040902ffde9a21ad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 940832775}
   nameInputText: {fileID: 1718551703}
   startButton: {fileID: 486763808}
   quitButton: {fileID: 441501071}

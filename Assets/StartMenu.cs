@@ -14,6 +14,8 @@ public class StartMenu : MonoBehaviour
         nameInputText.onValueChanged.AddListener(SaveName);
         startButton.onClick.AddListener(StartGame);
         quitButton.onClick.AddListener(Quit);
+
+        scoreText.text = $"Best Score: {DataManager.Instance.PlayerName} : {DataManager.Instance.HighScore}";
     }
 
     private void StartGame()
@@ -33,5 +35,6 @@ public class StartMenu : MonoBehaviour
     private void SaveName(string value)
     {
         DataManager.Instance.SaveName(value);
+        scoreText.text = $"Best Score: {DataManager.Instance.PlayerName} : {DataManager.Instance.HighScore}";
     }
 }
